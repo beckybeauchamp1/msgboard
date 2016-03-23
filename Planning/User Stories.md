@@ -1,19 +1,19 @@
 For a message board I know what is needed is:
 
 
-User
-User ID
-Password
+User,
+User ID,
+Password,
 
-Message
-Message ID
-Title
+Message,
+Message ID,
+Title,
 Name of poster
 
-Comment
-Comment ID
-Message ID
-User ID who is commenting
+Comment,
+Comment ID,
+Message ID,
+User ID who is commenting,
 Date Posted
 
 I'll need a registration page that sends the username/pass/email/whatever other reg values to the database. I'll need a login page that will check against these values in the database. I'll need a basic post function, but then you'll also need checks to see if the user is logged in, or what permissions they have (if I have different access levels for different users).
