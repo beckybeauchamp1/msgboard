@@ -1,28 +1,27 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+explanations of the technologies used
+Ruby on Rails, Bootstrap, SASS-rails, random Gems (i.e. devise)
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
+
+the approach taken
+Bronze started out with just a basic model of a message board where anyone could post and delete messages and comments.
+
+Silver began with implementation of the user profiles like using an e-mail and password in order to make submissions and edit your original posting.  Also allowed for non-users to sign up for an account in order to add to the forum.
+
+Gold will be used later down the road that will allow for a myspace esq feel where the user can manipulate their login with an avatar or back-ground images.
+
+
+
+installation instructions
+if downloaded to local run a rake drop.
+however is using the site create an account.
+
+
+
+
+
+
+unsolved problems
+forgot to change the local host for when the user asked to reset password so it redirects to change the password after an e-mail is submitted.
