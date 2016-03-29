@@ -1,4 +1,5 @@
 class CommentsController < ApplicationController
+	# nice job using the before_action
 	before_action :find_message
 	before_action :find_comment, only: [:edit, :update, :destroy]
 	before_action :authenticate_user!
@@ -14,6 +15,7 @@ class CommentsController < ApplicationController
 		end
 	end
 
+# I would take out this edit method
 	def edit
 	end
 
@@ -46,5 +48,5 @@ class CommentsController < ApplicationController
 		def find_comment
 			@comment = @message.comments.find(params[:id])
 		end
-		
+
 	end
